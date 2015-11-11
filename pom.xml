@@ -10,6 +10,9 @@
     <packaging>maven-archetype</packaging>
 
     <name>tendiwa-kotlin-archetype</name>
+    <description>Maven archetype for Kotlin projects of Tendiwa Project</description>
+
+    <url>http://tendiwa.org/</url>
 
     <build>
         <extensions>
@@ -19,7 +22,6 @@
                 <version>2.4</version>
             </extension>
         </extensions>
-
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -29,10 +31,6 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <description>Maven archetype for Kotlin projects of Tendiwa Project</description>
-
-    <url>http://tendiwa.org/</url>
 
     <distributionManagement>
         <snapshotRepository>
